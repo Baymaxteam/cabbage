@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
     private Size mPrevewSize = null;
     private CameraDevice mCameraDevice = null;
     private CaptureRequest.Builder mPrevewBuilder = null;
-    private CameraCaptureSession mCameraPreviewCaptureSession = null,
-    mCameraTakePicCaptureSession = null;
+    private CameraCaptureSession mCameraPreviewCaptureSession = null;
+    //mCameraTakePicCaptureSession = null;
 
     private TextureView.SurfaceTextureListener mSurfaceTextureListener = new TextureView.SurfaceTextureListener() {
         @Override
@@ -263,50 +263,50 @@ public class MainActivity extends AppCompatActivity {
             mCameraPreviewCaptureSession.close();
             mCameraPreviewCaptureSession = null;
         }
-        if (mCameraTakePicCaptureSession != null){
-            mCameraTakePicCaptureSession.close();
-            mCameraTakePicCaptureSession = null;
-        }
+//        if (mCameraTakePicCaptureSession != null){
+//            mCameraTakePicCaptureSession.close();
+//            mCameraTakePicCaptureSession = null;
+//        }
     }
 
-    private void takePicture(){
-        if(mCameraDevice == null){
-            Toast.makeText(MainActivity.this, "Camera錯誤", Toast.LENGTH_LONG).show();
-            return;
-        }
-    }
-
-    final File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath(), "photo.jpg");
-    ImageReader.OnImageAvailableListener imgReaderOnImageAvailable = new ImageReader.OnImageAvailableListener(){
-
-        @Override
-        public void onImageAvailable(ImageReader imageReader) {
-            Image image = null;
-            try{
-                image = imageReader.acquireLatestImage();
-                ByteBuffer buffer = image.getPlanes()[0].getBuffer();
-                byte[] bytes = new byte[buffer.capacity()];
-                buffer.get(bytes);
-
-                OutputStream output = null;
-                try{
-                    output = new FileOutputStream(file);
-                    output.write(bytes);
-                }finally {
-                    if (null != output){
-                        output.close();
-                    }
-                }
-            }catch (FileNotFoundException e){
-                e.printStackTrace();
-            }catch (IOException e){
-                e.printStackTrace();
-            }finally {
-                if(image != null)
-                    image.close();
-            }
-        }
-    };
-
-    CameraManager camMgr = (CameraManager) getSystemService(CAMERA_SERVICE);
+//    private void takePicture(){
+//        if(mCameraDevice == null){
+//            Toast.makeText(MainActivity.this, "Camera錯誤", Toast.LENGTH_LONG).show();
+//            return;
+//        }
+//    }
+//
+//    final File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath(), "photo.jpg");
+//    ImageReader.OnImageAvailableListener imgReaderOnImageAvailable = new ImageReader.OnImageAvailableListener(){
+//
+//        @Override
+//        public void onImageAvailable(ImageReader imageReader) {
+//            Image image = null;
+//            try{
+//                image = imageReader.acquireLatestImage();
+//                ByteBuffer buffer = image.getPlanes()[0].getBuffer();
+//                byte[] bytes = new byte[buffer.capacity()];
+//                buffer.get(bytes);
+//
+//                OutputStream output = null;
+//                try{
+//                    output = new FileOutputStream(file);
+//                    output.write(bytes);
+//                }finally {
+//                    if (null != output){
+//                        output.close();
+//                    }
+//                }
+//            }catch (FileNotFoundException e){
+//                e.printStackTrace();
+//            }catch (IOException e){
+//                e.printStackTrace();
+//            }finally {
+//                if(image != null)
+//                    image.close();
+//            }
+//        }
+//    };
+//
+//    CameraManager camMgr = (CameraManager) getSystemService(CAMERA_SERVICE);
 }

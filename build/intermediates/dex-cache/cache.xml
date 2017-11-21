@@ -3,138 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\8e75c41db45e8aaaba6d514959755e08907bcaba\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32bd57f15904f9261dfcff513d74653712045a92\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\9ac7009fcdb03fe85fe180267071ce11ebc76914\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_90b9bc39c6ac17ea8a68b03f4520526c736f3e1c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\84c2971b412940991c58163f3c05e5168d711e8f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55fab39f74d3b569c2f7ba622115be3644a482ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\43883d1f2528d9797cb35cff77a6824d082fc24c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b3c3787b4cd034cc9a90f75214db6a17af0b619\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\5f109abd630311f078af063ef30a25c47ffc7bb7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56ce9c42621ff8d24683771529d25a7b85643af5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\6785d78debffcc40bac5f9d3e33b521d11e3f146\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13e742ddca51ec7163e100426cffd3652078bd21\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\309a072d6a5eaaca867f5263cbb8d7244fdbd4a6\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0ef307285f9cded7828816375381290e7de3db3d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_d5de28f221c7569206ff4560d908d0dcb6151867\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="aa643a8096a126ecc887d4994ecaddf634e22cba">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9150f1e1a48ef790563d0d2e3f6969cbfc484088\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\1b07d6d5d1ba0dad53a7044ab168b3447bd2b2c1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_91a5eee0c459ed011d236cb8b7cc774cabb672cf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\3e879fc70e781f021e3429b580b30c127b797518\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9448116b69b5e2c80caa75614db504a69f7f8aa7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\2a8811b01210ec2ed72518e7bce4548a424a4ad2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c53537c76016e736541fee5035f7657031b78e35\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\afebea0dc974fa0dc69cc014d7281f71f6bd846e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.1"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6f8590616b76bfd82974c233ede4c9c0f3be70d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/compal/baymax/cabbage/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_773b873b1eaaad3f7f24ac1cfe86cd124ee3421d\classes.dex" />
+        <dex dex="/Users/compal/baymax/cabbage/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_eb6233c949c3f55dd86e8edfa6372ee02fd7e413/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\momo\.android\build-cache\c82cededa86a73e47fa7e2b5ebe419f2e18c753d\output\jars\classes.jar"
+        jar="/Users/compal/baymax/cabbage/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\momo\Desktop\baymax\crabbage\cabbage5\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af087c9b8997e8e682ececb1bb226f4d7e78cea6\classes.dex" />
+        sha1="d41de774918d980c72535c8734e78e8ac90e8be5">
+        <dex dex="/Users/compal/baymax/cabbage/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b15dc1ae271a0832a12968471e8762354c43d68d/classes.dex" />
     </item>
 
 </items>
